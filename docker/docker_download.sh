@@ -19,4 +19,4 @@ docker run -d -p 8000:8000 -p 9443:9443 --name portainer --restart=always -v /va
 # Pour connaître l'adresse IP de la machine
 ip_address=$(hostname -I)
 
-echo "Installation de Docker et Portainer terminée. Accès à Portainer via $ip_address au port 8080"
+echo "Installation de Docker et Portainer terminée. Accès à Portainer via $ip_address au port 9443"
